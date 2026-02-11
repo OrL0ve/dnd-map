@@ -7,7 +7,7 @@
       2117
     ],
     "images": [
-      "waterdeep.jpg"
+      "images/waterdeep.jpg"
     ],
     "text": "Город, в котором начались наши приключения"
   },
@@ -19,7 +19,7 @@
       2083
     ],
     "images": [
-      "ChessCastle.jpg"
+      "images/ChessCastle.jpg"
     ],
     "text": "Замок с шахматами. Был приобретен нами за 5 золотых"
   },
@@ -31,7 +31,7 @@
       2010
     ],
     "images": [
-      "huessir.jpg"
+      "images/huessir.jpg"
     ],
     "text": "Пидорас, пидорасина"
   }
