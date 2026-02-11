@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>D&D Карта</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+
+  <style>
+    html, body, #map {
+      height: 100%;
+      margin: 0;
+      background: #111;
+    }
+
+    .popup-gallery {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      margin-bottom: 6px;
+    }
+
+    .popup-gallery img {
+      height: 90px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .leaflet-control button {
+      padding: 6px;
+      cursor: pointer;
+      background: white;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="map.js"></script>
+</body>
+</html>
