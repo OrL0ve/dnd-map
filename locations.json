@@ -3,8 +3,8 @@
     "name": "Уотердип",
     "category": "city",
     "coords": [
-      2947,
-      2117
+      1417,
+      1129
     ],
     "images": [
       "images/waterdeep.jpg"
@@ -15,8 +15,8 @@
     "name": "Замок",
     "category": "dungeon",
     "coords": [
-      3087,
-      2083
+      1519,
+      1102
     ],
     "images": [
       "images/ChessCastle.jpg"
@@ -27,8 +27,8 @@
     "name": "Хуессир",
     "category": "event",
     "coords": [
-      3187,
-      2010
+      1535,
+      1062
     ],
     "images": [
       "images/huessir.jpg", "images/pidorasina.jpg"
