@@ -12,7 +12,7 @@ const map = L.map('map', {
 
 const bounds = [[0, 0], [imageHeight, imageWidth]];
 
-L.imageOverlay('map.png', bounds).addTo(map);
+L.imageOverlay('map.jpg', bounds).addTo(map);
 map.fitBounds(bounds);
 map.setMaxBounds(bounds);
 
@@ -166,3 +166,4 @@ function saveLocation(lat, lng) {
   alert("Локация добавлена!");
   map.closePopup();
 }
+
