@@ -1,9 +1,15 @@
 [
   {
-    "name": "Таверна «Сломанный Клык»",
-    "category": "city",
-    "coords": [3200, 4100],
-    "images": ["images/tavern.jpg"],
-    "text": "Первая встреча партии."
+    "name": "щющло",
+    "category": "event",
+    "coords": [
+      3480,
+      3640
+    ],
+    "images": [
+      "dungeon.jpg",
+      "tavern.jpg"
+    ],
+    "text": "хызь"
   }
 ]
