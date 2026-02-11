@@ -1,6 +1,6 @@
 // ===== РАЗМЕРЫ КАРТЫ =====
-const imageWidth = 8192;   // замени на реальные
-const imageHeight = 5788;  // замени на реальные
+const imageWidth = 4096;   // замени на реальные
+const imageHeight = 2894;  // замени на реальные
 
 // ===== СОЗДАНИЕ КАРТЫ =====
 const map = L.map('map', {
@@ -166,4 +166,5 @@ function saveLocation(lat, lng) {
   alert("Локация добавлена!");
   map.closePopup();
 }
+
 
