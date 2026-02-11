@@ -1,15 +1,38 @@
 [
   {
-    "name": "щющло",
-    "category": "event",
+    "name": "Уотердип",
+    "category": "city",
     "coords": [
-      3480,
-      3640
+      2947,
+      2117
     ],
     "images": [
-      "dungeon.jpg",
-      "tavern.jpg"
+      "waterdeep.jpg"
     ],
-    "text": "хызь"
+    "text": "Город, в котором начались наши приключения"
+  },
+  {
+    "name": "Замок",
+    "category": "dungeon",
+    "coords": [
+      3087,
+      2083
+    ],
+    "images": [
+      "ChessCastle.jpg"
+    ],
+    "text": "Замок с шахматами. Был приобретен нами за 5 золотых"
+  },
+  {
+    "name": "Хуессир",
+    "category": "event",
+    "coords": [
+      3187,
+      2010
+    ],
+    "images": [
+      "huessir.jpg"
+    ],
+    "text": "Пидорас, пидорасина"
   }
 ]
