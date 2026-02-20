@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8" />
-<title>DND Map</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-<style>
-  html, body { margin:0; height:100%; }
-  #map { width:100%; height:100%; }
-</style>
-</head>
-<body>
 
-<div id="map"></div>
-
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script>
 
 // === размеры основной карты ===
 const width = 4028;
@@ -65,3 +49,4 @@ kpHighlight.on('click', function () {
 </script>
 </body>
 </html>
+
