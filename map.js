@@ -1,6 +1,6 @@
 // ===== РАЗМЕРЫ КАРТЫ =====
-const imageWidth = 4096;   // замени на реальные
-const imageHeight = 2894;  // замени на реальные
+const imageWidth = 4028;   // замени на реальные
+const imageHeight = 2494;  // замени на реальные
 
 // ===== СОЗДАНИЕ КАРТЫ =====
 const map = L.map('map', {
@@ -12,7 +12,7 @@ const map = L.map('map', {
 
 const bounds = [[0, 0], [imageHeight, imageWidth]];
 
-L.imageOverlay('map.jpg', bounds).addTo(map);
+L.imageOverlay('map4028x2494.jpg', bounds).addTo(map);
 map.fitBounds(bounds);
 map.setMaxBounds(bounds);
 
@@ -166,5 +166,6 @@ function saveLocation(lat, lng) {
   alert("Локация добавлена!");
   map.closePopup();
 }
+
 
 
